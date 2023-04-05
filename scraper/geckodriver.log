@@ -1,0 +1,754 @@
+1680662348504	geckodriver	INFO	Listening on 127.0.0.1:60507
+1680662349018	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--remote-debugging-port" "39359" "-no-remote" "-profile" "/tmp/rust_mozprofile6Kw3FI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680662349887	Marionette	INFO	Marionette enabled
+1680662349891	Marionette	INFO	Listening on port 37963
+WebDriver BiDi listening on ws://127.0.0.1:39359
+1680662350060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6Kw3FI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39359/devtools/browser/629c62f5-1c18-4e28-b7da-0cea6bcaba2f
+1680662360188	Marionette	INFO	Stopped listening on port 37963
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680662365914	geckodriver	INFO	Listening on 127.0.0.1:57041
+1680662366424	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--remote-debugging-port" "36981" "-no-remote" "-profile" "/tmp/rust_mozprofilecPRPaB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680662367205	Marionette	INFO	Marionette enabled
+1680662367208	Marionette	INFO	Listening on port 46147
+WebDriver BiDi listening on ws://127.0.0.1:36981
+1680662367322	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecPRPaB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36981/devtools/browser/3ca0a8cd-d518-42c5-8997-37633a37bea5
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1680662369793	Marionette	INFO	Stopped listening on port 46147
+1680662378205	geckodriver	INFO	Listening on 127.0.0.1:53833
+1680662378715	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--remote-debugging-port" "60383" "-no-remote" "-profile" "/tmp/rust_mozprofileqNniG7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680662379509	Marionette	INFO	Marionette enabled
+1680662379513	Marionette	INFO	Listening on port 36863
+WebDriver BiDi listening on ws://127.0.0.1:60383
+1680662379642	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqNniG7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60383/devtools/browser/802ed007-ee89-4012-918e-4ceb21316532
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680662396533	Marionette	INFO	Stopped listening on port 36863
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680662605228	geckodriver	INFO	Listening on 127.0.0.1:52527
+1680662605745	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "41577" "-no-remote" "-profile" "/tmp/rust_mozprofileTbiYRV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680662606519	Marionette	INFO	Marionette enabled
+1680662606523	Marionette	INFO	Listening on port 35383
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:41577
+1680662606642	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTbiYRV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41577/devtools/browser/3f81e7f0-5a72-4231-8a47-aa800cb95f3c
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680662614862	Marionette	INFO	Stopped listening on port 35383
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680662675711	geckodriver	INFO	Listening on 127.0.0.1:53827
+1680662676228	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "44111" "-no-remote" "-profile" "/tmp/rust_mozprofilejVqlby"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680662676994	Marionette	INFO	Marionette enabled
+1680662676998	Marionette	INFO	Listening on port 41133
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:44111
+1680662677122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejVqlby/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44111/devtools/browser/b8f9dddc-12db-46f7-82a7-60319fe4e3cc
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680662683120	Marionette	INFO	Stopped listening on port 41133
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680662731958	geckodriver	INFO	Listening on 127.0.0.1:42363
+1680662732475	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "52773" "-no-remote" "-profile" "/tmp/rust_mozprofilebtpGOi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680662733298	Marionette	INFO	Marionette enabled
+1680662733301	Marionette	INFO	Listening on port 37023
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:52773
+1680662733433	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebtpGOi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52773/devtools/browser/31a7907d-7509-4f22-b4e5-895d493ec30c
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680662740938	Marionette	INFO	Stopped listening on port 37023
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680662751834	geckodriver	INFO	Listening on 127.0.0.1:33565
+1680662752350	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "43409" "-no-remote" "-profile" "/tmp/rust_mozprofilemBeTvm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680662753135	Marionette	INFO	Marionette enabled
+1680662753138	Marionette	INFO	Listening on port 39927
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:43409
+1680662753262	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemBeTvm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43409/devtools/browser/9ab5e285-8e7a-4db9-a048-bc678cb2be32
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3ikLK4/yf/l/makehaste_jhash/VnVV9hsNV9Q.js?_nc_x=wzQ_weCZwZj, line 30: Script terminated by timeout at:
+b@https://static.xx.fbcdn.net/rsrc.php/v3ikLK4/yf/l/makehaste_jhash/VnVV9hsNV9Q.js?_nc_x=wzQ_weCZwZj:30:364
+m@https://static.xx.fbcdn.net/rsrc.php/v3iVnx4/yy/l/makehaste_jhash/WZZ-VGwaxzMK8S4oVFub5gU7NPKWmfIuyU5mXANaprjiqq8vCCBYzGdMfJPh76HsN0lbGu7g4pAOmFVLLNeMqgk9uSUbQbk_3k3dk3qWsExgseGp9nFP0zHxpf1geqjjI2x7hn7KdvA6qdcS5ukoOyOd0NLlAMd2U7csX_mpUsIVF17JrcjUlvZgVDL.js?_nc_x=wzQ_weCZwZj:556:1031
+readDataExn@https://static.xx.fbcdn.net/rsrc.php/v3iVnx4/yy/l/makehaste_jhash/WZZ-VGwaxzMK8S4oVFub5gU7NPKWmfIuyU5mXANaprjiqq8vCCBYzGdMfJPh76HsN0lbGu7g4pAOmFVLLNeMqgk9uSUbQbk_3k3dk3qWsExgseGp9nFP0zHxpf1geqjjI2x7hn7KdvA6qdcS5ukoOyOd0NLlAMd2U7csX_mpUsIVF17JrcjUlvZgVDL.js?_nc_x=wzQ_weCZwZj:556:2220
+i@https://static.xx.fbcdn.net/rsrc.php/v3iVnx4/yy/l/makehaste_jhash/WZZ-VGwaxzMK8S4oVFub5gU7NPKWmfIuyU5mXANaprjiqq8vCCBYzGdMfJPh76HsN0lbGu7g4pAOmFVLLNeMqgk9uSUbQbk_3k3dk3qWsExgseGp9nFP0zHxpf1geqjjI2x7hn7KdvA6qdcS5ukoOyOd0NLlAMd2U7csX_mpUsIVF17JrcjUlvZgVDL.js?_nc_x=wzQ_weCZwZj:564:1049
+u@https://static.xx.fbcdn.net/rsrc.php/v3iVnx4/yy/l/makehaste_jhash/WZZ-VGwaxzMK8S4oVFub5gU7NPKWmfIuyU5mXANaprjiqq8vCCBYzGdMfJPh76HsN0lbGu7g4pAOmFVLLNeMqgk9uSUbQbk_3k3dk3qWsExgseGp9nFP0zHxpf1geqjjI2x7hn7KdvA6qdcS5ukoOyOd0NLlAMd2U7csX_mpUsIVF17JrcjUlvZgVDL.js?_nc_x=wzQ_weCZwZj:564:2712
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680663525637	geckodriver	INFO	Listening on 127.0.0.1:45633
+1680663526150	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "53011" "-no-remote" "-profile" "/tmp/rust_mozprofileyIJTq6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680663527333	Marionette	INFO	Marionette enabled
+1680663527337	Marionette	INFO	Listening on port 40657
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:53011
+1680663527581	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyIJTq6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53011/devtools/browser/8a9cc333-95c7-43f0-a739-63f0ef96fd5c
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680663538851	Marionette	INFO	Stopped listening on port 40657
+1680663791000	geckodriver	INFO	Listening on 127.0.0.1:49765
+1680663791518	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "41571" "-no-remote" "-profile" "/tmp/rust_mozprofileucknoY"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680663792372	Marionette	INFO	Marionette enabled
+1680663792375	Marionette	INFO	Listening on port 34505
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:41571
+1680663792499	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileucknoY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41571/devtools/browser/47b5dcf5-7810-4901-99de-abc4d24cc4ca
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680663802070	Marionette	INFO	Stopped listening on port 34505
+1680663847771	geckodriver	INFO	Listening on 127.0.0.1:39647
+1680663848284	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "46943" "-no-remote" "-profile" "/tmp/rust_mozprofilenRGbFt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680663849206	Marionette	INFO	Marionette enabled
+1680663849210	Marionette	INFO	Listening on port 45127
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:46943
+1680663849361	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenRGbFt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46943/devtools/browser/ce05d5f4-6b41-4261-b5f8-e0cc459310b7
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680663859174	Marionette	INFO	Stopped listening on port 45127
+1680663866632	geckodriver	INFO	Listening on 127.0.0.1:34057
+1680663867143	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "43331" "-no-remote" "-profile" "/tmp/rust_mozprofiled8TTPC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680663867879	Marionette	INFO	Marionette enabled
+1680663867882	Marionette	INFO	Listening on port 42765
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:43331
+1680663868007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiled8TTPC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43331/devtools/browser/0345dbd0-0668-4b14-b713-95ec63691645
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680663871155	Marionette	INFO	Stopped listening on port 42765
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680663871263	geckodriver::marionette	ERROR	Failed to close browser connection: Transport endpoint is not connected (os error 107)
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: uncaught exception: Object
+[ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1680664060494	geckodriver	INFO	Listening on 127.0.0.1:60717
+1680664061012	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "38835" "-no-remote" "-profile" "/tmp/rust_mozprofilebkDN6L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680664061840	Marionette	INFO	Marionette enabled
+1680664061844	Marionette	INFO	Listening on port 44723
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:38835
+1680664061981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebkDN6L/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38835/devtools/browser/a3bb733b-61b6-4fe3-afe8-8a047335ce5d
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680664073495	Marionette	INFO	Stopped listening on port 44723
+1680664193606	geckodriver	INFO	Listening on 127.0.0.1:35413
+1680664194127	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "37579" "-no-remote" "-profile" "/tmp/rust_mozprofileFayGvo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680664195052	Marionette	INFO	Marionette enabled
+1680664195055	Marionette	INFO	Listening on port 35457
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:37579
+1680664195188	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFayGvo/search.json.mozlz4", (void 0)))
+console.error: (new TypeError("NetworkError: Network request failed", "resource://services-settings/Utils.jsm", 237))
+DevTools listening on ws://127.0.0.1:37579/devtools/browser/84dd4b10-3b05-4e73-a037-f61f0509a5fa
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680664205099	Marionette	INFO	Stopped listening on port 35457
+1680664238974	geckodriver	INFO	Listening on 127.0.0.1:36243
+1680664239488	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "59953" "-no-remote" "-profile" "/tmp/rust_mozprofileF2Cr2h"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680664240629	Marionette	INFO	Marionette enabled
+1680664240635	Marionette	INFO	Listening on port 34963
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:59953
+1680664240793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF2Cr2h/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59953/devtools/browser/d0f7fb61-7eec-470f-bd4f-2fd8ba3d2dca
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680664250947	Marionette	INFO	Stopped listening on port 34963
+1680664259574	geckodriver	INFO	Listening on 127.0.0.1:38195
+1680664260092	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "46047" "-no-remote" "-profile" "/tmp/rust_mozprofile0FKiMK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680664260917	Marionette	INFO	Marionette enabled
+1680664260921	Marionette	INFO	Listening on port 36971
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:46047
+1680664261061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0FKiMK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46047/devtools/browser/bac65ce4-0239-437c-9638-6874be330e60
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680664310292	Marionette	INFO	Stopped listening on port 36971
+1680664322147	geckodriver	INFO	Listening on 127.0.0.1:52191
+1680664322657	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "33057" "-no-remote" "-profile" "/tmp/rust_mozprofileRnzCQq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680664323632	Marionette	INFO	Marionette enabled
+1680664323636	Marionette	INFO	Listening on port 37983
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:33057
+1680664323764	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRnzCQq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33057/devtools/browser/ce535e1e-3932-40c9-9b7d-709ba54f30ab
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680664474196	geckodriver	INFO	Listening on 127.0.0.1:49805
+1680664474717	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "59891" "-no-remote" "-profile" "/tmp/rust_mozprofilenUXw2Z"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680664475610	Marionette	INFO	Marionette enabled
+1680664475613	Marionette	INFO	Listening on port 39085
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:59891
+1680664475735	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenUXw2Z/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59891/devtools/browser/494fab77-4819-447b-9b6b-7ad4ac251b22
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680664492792	Marionette	INFO	Stopped listening on port 39085
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680664522545	geckodriver	INFO	Listening on 127.0.0.1:53943
+1680664523059	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "41935" "-no-remote" "-profile" "/tmp/rust_mozprofile5ZabQs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680664524144	Marionette	INFO	Marionette enabled
+1680664524154	Marionette	INFO	Listening on port 41343
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:41935
+1680664524304	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5ZabQs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41935/devtools/browser/cc1bcff1-7b9d-4b75-832a-50f46815be88
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680664548407	Marionette	INFO	Stopped listening on port 41343
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1680664634574	geckodriver	INFO	Listening on 127.0.0.1:34881
+1680664635088	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "60891" "-no-remote" "-profile" "/tmp/rust_mozprofilezdGF6f"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680664636331	Marionette	INFO	Marionette enabled
+1680664636335	Marionette	INFO	Listening on port 35857
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:60891
+1680664636500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezdGF6f/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60891/devtools/browser/affea0b7-52bb-4825-85f7-d298f80c839d
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680664649566	Marionette	INFO	Stopped listening on port 35857
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1680664709128	Marionette	INFO	Stopped listening on port 37983
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680666764261	geckodriver	INFO	Listening on 127.0.0.1:44215
+1680666764766	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "49027" "-no-remote" "-profile" "/tmp/rust_mozprofilevvDfPA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680666765824	Marionette	INFO	Marionette enabled
+1680666765829	Marionette	INFO	Listening on port 39747
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:49027
+1680666766001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevvDfPA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49027/devtools/browser/895cea7c-a48d-497a-ad0d-35ee24076532
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680666778844	Marionette	INFO	Stopped listening on port 39747
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 576: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1680666867888	Marionette	INFO	Stopped listening on port 39927
+1680670055991	geckodriver	INFO	Listening on 127.0.0.1:36239
+1680670056717	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "48747" "-no-remote" "-profile" "/tmp/rust_mozprofileBiFjsq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680670057602	Marionette	INFO	Marionette enabled
+1680670057605	Marionette	INFO	Listening on port 45541
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:48747
+1680670057729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBiFjsq/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48747/devtools/browser/b17f4ca7-ac47-441c-bfc8-1842b74400ea
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680670068988	Marionette	INFO	Stopped listening on port 45541
+1680670077872	geckodriver	INFO	Listening on 127.0.0.1:57731
+1680670078380	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "51433" "-no-remote" "-profile" "/tmp/rust_mozprofilewfUksv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680670079114	Marionette	INFO	Marionette enabled
+1680670079117	Marionette	INFO	Listening on port 37661
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:51433
+1680670079247	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewfUksv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51433/devtools/browser/b4607c38-710f-4740-8eaa-9f66b48bb5f5
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680670092107	Marionette	INFO	Stopped listening on port 37661
+1680670125911	geckodriver	INFO	Listening on 127.0.0.1:43563
+1680670126421	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "51101" "-no-remote" "-profile" "/tmp/rust_mozprofileRrQ9r4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1680670127170	Marionette	INFO	Marionette enabled
+1680670127173	Marionette	INFO	Listening on port 42999
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:51101
+1680670127294	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRrQ9r4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51101/devtools/browser/da784e66-49c4-4448-a511-ed14f777ca86
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yf/l/makehaste_jhash/JA65QsCHrbB.js?_nc_x=wzQ_weCZwZj, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1680673905315	Marionette	INFO	Stopped listening on port 42999
