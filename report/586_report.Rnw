@@ -1,0 +1,79 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry} %Sets proper 1-inch margins. 
+\usepackage{amsmath} %Only load this if you are using math/equations.
+\usepackage{graphicx} %Only need to call this if inserting images.
+\usepackage{caption} %Only need to call this if inserting captions.
+\usepackage{float} %Allows the use of the [H] specifier. 
+%\graphicspath{{C:/Users/jonah/Pictures/}} %Sets the working directory for images.
+\usepackage[colorlinks,citecolor=blue,linkcolor=blue,urlcolor=blue]{hyperref} %Allows for the embedding of urls. 
+\usepackage{setspace}
+\usepackage{blindtext}
+
+\pagenumbering{arabic}
+
+%\usepackage{fontspec} %%in order for this font stuff to work, you must compile using xelatex+makeindex+bibtex (or at minimum xelatex)
+%\setmainfont[Mapping=tex-text-ms]{Essays1743}
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Greenough \& Edmundson \\ 2023}
+\lhead{\thepage}
+
+\newcommand{\comment}[1]{}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE, echo=FALSE}
+
+\begin{center}
+\LARGE{\textsc{Machine Learning Prediction of Political Orientation using Facebook Profile Pictures}}
+\par
+\vspace{1pc}
+\par
+\Large{DATA586 Project Report}
+\par
+\vspace{1.0pc}
+\par
+\normalsize{Madison Greenough \& Jonah Edmundson}
+\end{center}
+
+
+\vspace{0.917 pc} %Creates a paragraph line break. 
+
+%\pagebreak
+
+%\tableofcontents
+
+%\pagebreak
+\section{Introduction}
+
+The dataset constructed for this analysis was obtained from Facebook. Facebook profile IDs were scraped from new members of 2 Facebook ``Groups'': republicans from \href{https://www.facebook.com/groups/RU4TX/}{Republicans in Texas}, and democrats from \href{https://www.facebook.com/groups/111188856119651/}{Democratic Voices for Biden/Harris 2024}. The python API wrapper \href{https://github.com/kevinzg/facebook-scraper}{\texttt{facebook-scraper}} was used to obtain URLs to each user's profile picture. Then, profile pictures were scanned for faces and cropped to a common size of 120 x 120 pixels using the Haar Cascades facial detection algorithm. 
+
+
+Finally, faces were assigned X facial attributes using Y.
+
+
+
+
+
+Assumptions of the following analysis due to the method of dataset construction are as follows:
+
+\begin{itemize}
+\item ``Democrats'' and ``republicans'' are good proxies for ``liberal'' and ``conservative'', respectively. 
+\item Democrats/republicans on Facebook are representative of democrats and republicans in general. 
+\item Users that set profiles pictures of themselves versus of a non-face picture do not have different facial attributes. 
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
