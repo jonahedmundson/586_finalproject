@@ -1189,3 +1189,67 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
 1680720074027	Marionette	INFO	Stopped listening on port 40573
+1681180415690	geckodriver	INFO	Listening on 127.0.0.1:51129
+1681180416142	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "41435" "-no-remote" "-profile" "/tmp/rust_mozprofileJHaPbe"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681180417309	Marionette	INFO	Marionette enabled
+1681180417318	Marionette	INFO	Listening on port 45969
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:41435
+1681180417531	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJHaPbe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41435/devtools/browser/010594aa-2a05-45e7-9b0b-d84e3e26d701
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yw/l/makehaste_jhash/3nvHuKvyvgb.js?_nc_x=_qSobabdpkH, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1681183364158	Marionette	INFO	Stopped listening on port 45969
+WARNING: At least one completion condition is taking too long to complete. Conditions: [{"name":"ContentParent: id=7f0100b6ec00","state":{"remoteTypePrefix":"web"},"filename":"/builds/worker/checkouts/gecko/dom/ipc/ContentParent.cpp","lineNumber":3931,"stack":""}] Barrier: profile-before-change
+console.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.sys.mjs", 370))
+1681232957203	geckodriver	INFO	Listening on 127.0.0.1:35687
+1681232957713	mozrunner::runner	INFO	Running command: "/home/jonah/Downloads/miniconda3/bin/firefox" "--marionette" "--disable-infobars" "start-maximized" "--disable-extensions" "--remote-debugging-port" "53559" "-no-remote" "-profile" "/tmp/rust_mozprofileLyVi17"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1681232958581	Marionette	INFO	Marionette enabled
+1681232958589	Marionette	INFO	Listening on port 40901
+console.error: "Warning: unrecognized command line flag -disable-infobars\n"
+console.error: "Warning: unrecognized command line flag -disable-extensions\n"
+WebDriver BiDi listening on ws://127.0.0.1:53559
+1681232958730	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLyVi17/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53559/devtools/browser/8ca45065-a3e3-4bb9-9b08-b7cefd2c98be
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iqES4/y0/l/en_US/kzZPEYNmLjz.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3i1Zp4/yw/l/makehaste_jhash/3nvHuKvyvgb.js?_nc_x=_qSobabdpkH, line 153: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.facebook.com."
+1681234982424	Marionette	INFO	Stopped listening on port 40901
