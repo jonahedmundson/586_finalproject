@@ -2498,7 +2498,8 @@
       \fancyhead[RE]{\@shortauthors}%
       \fancyhead[LO]{\ACM@linecountL\shorttitle}%
       \if@ACM@nonacm\else%
-        \fancyfoot[RO,LE]{\footnotesize Manuscript submitted to ACM}
+        %\fancyfoot[RO,LE]{\footnotesize Manuscript submitted to ACM}
+        \fancyfoot[RO,LE]{\footnotesize Edmundson \& Greenough}
       \fi%
     \or % acmsmall
       \fancyhead[LE]{\ACM@linecountL\@headfootfont\@acmArticlePage}%
