@@ -239,20 +239,15 @@ Assumptions of the following analysis due to the method of dataset construction 
 
 \section{Introduction}
 
-Machine learning has been used for image classification in many revolutionizing ways, including classifying different species. There has been moral controversy regarding big tech firms and their biased human image classification modelling. Google made headlines in 2015 for their perceived racist image labeling (Kayser-Bril). Image classification is difficult, especially when the task is to classify something that the naked human eye cannot predict accurately. 
+Machine learning has been used for image classification in many revolutionizing ways, including classifying different species. There has also been moral controversy regarding big tech firms and their biased human image classification modelling. Google made headlines in 2015 for their perceived racist image labeling (Kayser-Bril). Image classification is difficult, especially when the task is to classify something that the naked human eye cannot predict accurately. Over the years, political affiliation has become a growing source of division and controversy. The two main political groups are liberals and conservatives, also known as members of the left and right wing, or in the United States, they are referred to as Democrats and Republicans. These two groups have very distinguishing behavioural features, but can there be distinguishing physical features as well?
 
-In this report, the goal is to c
+In this report, the goal is to minimize all bias as absolutely necessary, to avoid the same pitfalls that Google experienced, while testing the possibility of artificial intelligence being able to predict underlying human behaviours from a simple image. Inspiration for this project came from \href{ttps://www.nature.com/articles/s41598-020-79310-1 }{this link}. This would be a feat more capable than humans themselves. If successful, this model could open up a number of possibilities. Advertising companies could better target ads based on traditional behaviours of people based on their political affiliation. Voting modelling could better predict the outcome of elections by simply using images of citizens. There are numerous possibilities that would generate significant revenue and innovation for societies around the world.
 
-INSPIRATION: https://www.nature.com/articles/s41598-020-79310-1 
-
-
-
-\pagebreak
-\section{Methods}
+\section{Background}
 
 \subsection{Dataset}
 
-The dataset for this project was obtained from the \href{https://www.congress.gov/members}{US Congress Members} archive. Photos of each member as well as their party affiliation (republican or democrat) were recorded. Members with an affiliation of ``independent'' were removed. After data collection, the rows were shuffled, and the dataset was split into training (80\%), validation (5\%) and testing (15\%). Images were also resized to 120 by 100 pixels (height by width) and converted to grayscale. Before CNN training, images were sequentially augmented thrice using the IMAGENET AutoAugment policy. 
+The dataset for this project was obtained from the \href{https://www.congress.gov/members}{US Congress Members} archive. Photos of each member as well as their party affiliation (republican or democrat) were recorded. Members with an affiliation of ``independent'' were removed. After data collection, the rows were shuffled, and the dataset was split into training (80\%), validation (5\%) and testing (15\%). The dataset contained a total of 1,889 rows. Images were resized to 120 by 100 pixels (height by width) and converted to grayscale. Before CNN training, images were sequentially augmented thrice using the IMAGENET AutoAugment policy. 
 
 \begin{figure}[h]
   \centering
@@ -262,6 +257,7 @@ The dataset for this project was obtained from the \href{https://www.congress.go
   \Description{text}
 \end{figure}
 
+\section{Methods}
 
 \subsection{Architecture}
 
