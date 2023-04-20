@@ -239,7 +239,9 @@ Assumptions of the following analysis due to the method of dataset construction 
 
 \section{Introduction}
 
-text
+Machine learning has been used for image classification in many revolutionizing ways, including classifying different species. There has been moral controversy regarding big tech firms and their biased human image classification modelling. Google made headlines in 2015 for their perceived racist image labeling (Kayser-Bril). Image classification is difficult, especially when the task is to classify something that the naked human eye cannot predict accurately. 
+
+In this report, the goal is to c
 
 INSPIRATION: https://www.nature.com/articles/s41598-020-79310-1 
 
@@ -543,6 +545,9 @@ the reader.
 
 Figure captions are placed {\itshape below} the figure.
 }
+
+\section{References}
+Kayser-Bril, N. (n.d.). Image classification algorithms at Apple, Google still push racist tropes. AlgorithmWatch. Retrieved April 20, 2023, from https://algorithmwatch.org/en/apple-google-computer-vision-racist/ 
 
 \end{document}
 \endinput
