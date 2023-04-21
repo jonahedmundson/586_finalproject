@@ -174,7 +174,9 @@ Assumptions of the following analysis due to the method of dataset construction 
 %% The abstract is a short summary of the work to be presented in the
 %% article.
 \begin{abstract}
-  ABSTRACT GOES HERE!!!!
+
+Images of current and former U.S. Congress Members were gathered for the dataset to represent members of the Republican and Democrat parties. This report aims to answer the question - can a neural network model predict the political affiliation of an individual given simply their image? This leads to several other potential questions, as to whether political affiliation can be determined based on simply physical features, regardless of if a human can detect it or not. Michal Kosinski's \href{https://www.nature.com/articles/s41598-020-79310-1}{2021 paper} inspired this research, as he conducted a large study and found that political orientation was classified in 72\% of images. In this study, three different architectures were trained and tested for classifying images. This includes LeNet-5, DenseNet, and a custom architecture modified from LeNet. The LeNet-5 model outperformed the other two significantly, with test classification rates of 60.21\%, 51.76\%, and 51.41\%, respectively. All models performed better than chance, 50\%, but the models failed to perform as well as Kosinski's, likely due to dataset limitations and computational power. Future work includes sourcing larger, more representative datasets to obtain a better classification accuracy.
+
 \end{abstract}
 
 %%
@@ -464,6 +466,7 @@ Congress.Gov. (n.d.). Members of the U.S. congress | Congress.gov | Library of C
 
 Kayser-Bril, N. (n.d.). Image classification algorithms at Apple, Google still push racist tropes. AlgorithmWatch. Retrieved April 20, 2023, from https://algorithmwatch.org/en/apple-google-computer-vision-racist/ 
 
+Kosinski, M. (2021, January 11). Facial recognition technology can expose political orientation from naturalistic facial images. Nature News. Retrieved April 21, 2023, from https://www.nature.com/articles/s41598-020-79310-1 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \commentt{ %begin long comment out 
