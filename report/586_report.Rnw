@@ -247,7 +247,7 @@ In this report, the goal is to minimize all bias as absolutely necessary, to avo
 
 \subsection{Dataset}
 
-The dataset for this project was obtained from the \href{https://www.congress.gov/members}{US Congress Members} archive. Photos of each member as well as their party affiliation (republican or democrat) were recorded. Members with an affiliation of ``independent'' were removed. After data collection, the rows were shuffled, and the dataset was split into training (80\%), validation (5\%) and testing (15\%). The dataset contained a total of 1,889 rows. Images were resized to 120 by 100 pixels (height by width) and converted to grayscale. Before CNN training, images were sequentially augmented thrice using the IMAGENET AutoAugment policy. 
+The dataset for this project was obtained from the \href{https://www.congress.gov/members}{US Congress Members} archive. Photos of each member as well as their party affiliation (republican or democrat) were recorded. Members with an affiliation of ``independent'' were removed. After data collection, the rows were shuffled, and the dataset was split into training (80\%), validation (5\%) and testing (15\%). The dataset contained a total of 1,889 rows. Further pre-processing was done and images were resized to 120 by 100 pixels (height by width) and converted to grayscale. Before CNN training, images were sequentially augmented thrice using the IMAGENET AutoAugment policy. 
 
 \begin{figure}[h]
   \centering
@@ -261,7 +261,7 @@ The dataset for this project was obtained from the \href{https://www.congress.go
 
 \subsection{Architecture}
 
-Three different architectures were trained and tested for classifying the images. These were LeNet-5, DenseNet, and a custom architecture (modified LeNet). The architectures of these NNs can be seen in \cref{tab:lenet5,tab:densenet,tab:custom}. The DenseNet architecture can be further investigated at \href{https://github.com/andreasveit/densenet-pytorch}{this GitHub repo}. 
+Three different architectures were trained and tested for classifying the images. These were LeNet-5, DenseNet, and a custom architecture (created from a modified LeNet). The specific architectures of these NNs can be seen below in \cref{tab:lenet5,tab:densenet,tab:custom}. The DenseNet architecture can be further investigated by visiting \href{https://github.com/andreasveit/densenet-pytorch}{this GitHub repo}. 
 
 
 \begin{table}[h!]
