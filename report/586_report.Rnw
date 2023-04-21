@@ -261,7 +261,7 @@ The dataset for this project was obtained from the \href{https://www.congress.go
 
 \subsection{Architecture}
 
-Three different architectures were trained and tested for classifying the images. These were LeNet-5, DenseNet, and a custom architecture (created from a modified LeNet). The specific architectures of these NNs can be seen below in \cref{tab:lenet5,tab:densenet,tab:custom}. The DenseNet architecture can be further investigated by visiting \href{https://github.com/andreasveit/densenet-pytorch}{this GitHub repo}. 
+Three different architectures were trained and tested for classifying the images. These were LeNet-5, DenseNet, and a custom architecture (created from a modified LeNet). The specific architectures, including features and classifiers, of these NNs can be seen below in \cref{tab:lenet5,tab:densenet,tab:custom}. The DenseNet architecture can be further investigated by visiting \href{https://github.com/andreasveit/densenet-pytorch}{this GitHub repo}. 
 
 
 \begin{table}[h!]
