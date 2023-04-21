@@ -257,6 +257,18 @@ The dataset for this project was obtained from the \href{https://www.congress.go
   \Description{text}
 \end{figure}
 
+\subsection{Assumptions}
+
+When conducting this analysis, the following assumptions were made in order to continue:
+
+\begin{itemize}
+\item ``Democrats'' and ``republicans'' are good proxies for ``liberal'' and ``conservative'', respectively. 
+\item Members of US Congress are representative of democrats and republicans in general. 
+\item Democrats and republicans have different facial attributes. 
+\end{itemize}
+
+These assumptions allowed us to collect the dataset mentioned above. It also allowed us to reasonably gather a dataset that could represent our two parties. Note that we did attempt to gather data of ordinary public members by scraping Facebook profile IDs from new members of 2 Facebook ``Groups'': republicans from \href{https://www.facebook.com/groups/RU4TX/}{Republicans in Texas}, and democrats from \href{https://www.facebook.com/groups/111188856119651/}{Democratic Voices for Biden/Harris 2024}. This method could not complete a large enough dataset for this analysis due to Facebook permissions, despite repeated attempts.
+
 \section{Methods}
 
 \subsection{Architecture}
@@ -424,38 +436,33 @@ Interestingly, \cref{fig:train,fig:valid} show that while all the models were ab
 
 \section{Discussion}
 
-
-Mention why test class. rate is higher than train (bc train data is augmented/all messed up, testing data is not, so it's easier to classify the test images)
-
-
-The poor classification rate of our NN may be to any of the following:
+Upon reflection of the performance of the various models tested, it is worth noting that the test classification rate was higher than the train classification rate. Although not impossible, we were quite perplexed as to why this was the case. After careful consideration, it was speculated that this is occurring because the training data is augmented whereas the testing data is not, so the model is able to more easily classify the test set images because of this, which resulted in the higher rate for the test set rather than the train set.
+\par
+Although the model performed better than chance, and potentially better than an impartial human being could guess, the performance was not at the level that we would have liked. The poor classification rate of the NN may have occurred because of these potential reasons listed below:
 
 \begin{enumerate}
-\item There is no actual difference in facial features between democrats and republicans. 
-\item There are facial differences between democrats and republicans, but our dataset is too small to pick up on these subtle facial differences. 
-\item The classifier section of the NN works well, but the convolution section is not properly picking up the meaningful facial features that are able to distinguish between the two parties. 
-\item The convolution section of our NN is able to pick up on some meaningful signals, but the classification section is not performing well. 
-\item The NN is only picking up features in the background of the image (and not the facial features), which are not predictive. 
+\item There could be no actual difference in facial features between democrats and republicans. 
+\item There are facial differences between democrats and republicans, but this dataset is too small to pick up on these subtle facial differences. Or, these specific formal images of the congress members may not represent the facial differences the best
+\item The classifier section of the NN works well, but the convolution section is not accurately picking up the meaningful facial features that are able to distinguish between the two parties. 
+\item The convolution section of the NN is able to pick up on some meaningful signals, but the classification section is not performing well. 
+\item The NN is only picking up features in the background of the image (and not the facial features), which are not predictive nor meaningful. 
 \end{enumerate}
 
-I think Number 5 is most likely. 
-
-
+Out of all of these potential reasons, we believe that the fifth option is a more likely situation as to why the model is not performing as well as it could.
 
 
 \section{Limitations \& Future Work}
 
-Assumptions of this analysis due to the method of dataset construction are as follows:
-
-\begin{itemize}
-\item ``Democrats'' and ``republicans'' are good proxies for ``liberal'' and ``conservative'', respectively. 
-\item Members of US congress are representative of democrats and republicans in general. 
-\item Democrats and republicans have different facial attributes. 
-\end{itemize}
-
-In order to rectify the low classification rate of our NN, as well as to iron out the assumptions listed above, a new dataset should be collected. Ideally, the dataset would be collected from public social media profiles such as Facebook or dating websites. This new dataset should also be much larger, ideally by several orders of magnitude. Once this dataset is collected, more complex NN architectures could also be attempted. If this were to be done, we speculate that the classification rate would increase, as was seen in the Kosinski (2021) paper.
+In order to rectify the low classification rate of the NN, as well as to iron out the assumptions listed earlier in this report, a new dataset should be collected. Ideally, the dataset would be collected from public social media profiles such as Facebook or dating websites, as per our original intentions. This new dataset should also be much larger, ideally by several orders of magnitude. Once this dataset is collected, more complex NN architectures could be attempted. If this were to be done, we speculate that the classification rate would increase, as was seen in the Kosinski (2021) paper.
 
 
+\section{References}
+
+Andreasveit. (n.d.). Andreasveit/densenet-pytorch: A pytorch implementation for densely connected Convolutional Networks (DenseNets). GitHub. Retrieved April 21, 2023, from https://github.com/andreasveit/densenet-pytorch 
+
+Congress.Gov. (n.d.). Members of the U.S. congress | Congress.gov | Library of Congress. Members of the U.S. Congress. Retrieved April 21, 2023, from https://www.congress.gov/members 
+
+Kayser-Bril, N. (n.d.). Image classification algorithms at Apple, Google still push racist tropes. AlgorithmWatch. Retrieved April 20, 2023, from https://algorithmwatch.org/en/apple-google-computer-vision-racist/ 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -525,13 +532,6 @@ the reader.
 Figure captions are placed {\itshape below} the figure.
 }
 
-\section{References}
-
-Andreasveit. (n.d.). Andreasveit/densenet-pytorch: A pytorch implementation for densely connected Convolutional Networks (DenseNets). GitHub. Retrieved April 21, 2023, from https://github.com/andreasveit/densenet-pytorch 
-
-Congress.Gov. (n.d.). Members of the U.S. congress | Congress.gov | Library of Congress. Members of the U.S. Congress. Retrieved April 21, 2023, from https://www.congress.gov/members 
-
-Kayser-Bril, N. (n.d.). Image classification algorithms at Apple, Google still push racist tropes. AlgorithmWatch. Retrieved April 20, 2023, from https://algorithmwatch.org/en/apple-google-computer-vision-racist/ 
 
 
 
