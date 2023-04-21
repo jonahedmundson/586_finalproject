@@ -350,7 +350,7 @@ Three different architectures were trained and tested for classifying the images
 
 \subsection{Tuning}
 
-Many tuning attempts were made in order to raise the classification rate for the test data. Learning rate, batch size, number of epochs, dropout rate, number of features, weight decay and depth (DenseNet only) were systematically altered. The best values for each hyperparameter were discovered for each of the models, and can be seen in \cref{tab:params}.
+Many attempts were made to tune the models in order to raise the classification accuracy for the test data set. Learning rate, batch size, number of epochs, dropout rate, number of features, weight decay, and depth (found only in DenseNet) were systematically altered. The best values for each hyperparameter were discovered for each of the models, and can be seen in \cref{tab:params}.
 
 \begin{table}[h!]
 \caption{}
