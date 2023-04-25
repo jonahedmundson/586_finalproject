@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.4.11)  21 APR 2023 22:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2023.4.11)  25 APR 2023 11:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -931,7 +931,7 @@ Package caption Info: End \AtBeginDocument code.
 
 (./586_report-concordance.tex)
 LaTeX Font Info:    Trying to load font information for T1+aess on input line 2
-41.
+42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/ae/t1aess.fd
 File: t1aess.fd 1997/11/16 Font definitions for T1/aess.
@@ -941,17 +941,17 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <12> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 241.
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 242.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 241.
+(Font)              scaled to size 10.95pt on input line 242.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxLibertineT-TLF' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 241.
+(Font)              scaled to size 8.0pt on input line 242.
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.1pt on input line 241.
+(Font)              scaled to size 6.1pt on input line 242.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
@@ -960,13 +960,13 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for TS1+aess on input line 
-241.
-LaTeX Font Info:    No file TS1aess.fd. on input line 241.
+242.
+LaTeX Font Info:    No file TS1aess.fd. on input line 242.
 
 
 LaTeX Font Warning: Font shape `TS1/aess/m/n' undefined
 (Font)              using `TS1/cmr/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 241.
+(Font)              for symbol `textasteriskcentered' on input line 242.
 
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `aess' (encoding: TS1).
@@ -975,36 +975,38 @@ Package microtype Info: Loading generic protrusion settings for font family
 <../presentation/lenet5.png, id=56, 664.4825pt x 204.765pt>
 File: ../presentation/lenet5.png Graphic file (type png)
 <use ../presentation/lenet5.png>
-Package pdftex.def Info: ../presentation/lenet5.png  used on input line 241.
+Package pdftex.def Info: ../presentation/lenet5.png  used on input line 242.
 (pdftex.def)             Requested size: 430.00462pt x 132.50826pt.
 LaTeX Font Info:    Trying to load font information for TS1+aer on input line 2
-41.
+42.
 (/usr/share/R/share/texmf/tex/latex/ts1aer.fd
 File: ts1aer.fd 
 )
 LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <5.5> not available
-(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 241.
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 242.
 
 
 LaTeX Font Warning: Font shape `TS1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 241.
+(Font)              size <5> substituted on input line 242.
 
 LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <7> not available
-(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 241.
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 242.
+LaTeX Font Info:    Font shape `T1/aess/b/n' in size <8> not available
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 242.
 
 Class acmart Warning: \vspace should only be used to provide space above/below 
-surrounding objects on input line 241.
+surrounding objects on input line 242.
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.2pt on input line 241.
+(Font)              scaled to size 6.2pt on input line 242.
 [1.1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../presentation/lenet5
 .png>]
 LaTeX Font Info:    Font shape `T1/aess/b/n' in size <9> not available
-(Font)              Font shape `T1/aess/bx/n' tried instead on input line 243.
-<../presentation/batch_both.png, id=80, 758.835pt x 436.5108pt>
+(Font)              Font shape `T1/aess/bx/n' tried instead on input line 244.
+<../presentation/batch_both.png, id=81, 758.835pt x 436.5108pt>
 File: ../presentation/batch_both.png Graphic file (type png)
 <use ../presentation/batch_both.png>
-Package pdftex.def Info: ../presentation/batch_both.png  used on input line 257
+Package pdftex.def Info: ../presentation/batch_both.png  used on input line 258
 .
 (pdftex.def)             Requested size: 430.00462pt x 247.36171pt.
 
@@ -1012,7 +1014,7 @@ Package pdftex.def Info: ../presentation/batch_both.png  used on input line 257
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 268.
+(Font)              scaled to size 9.0pt on input line 269.
 [2.2]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1028,44 +1030,44 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4.4]
-<../presentation/filters.png, id=114, 448.67625pt x 256.96pt>
+<../presentation/filters.png, id=115, 448.67625pt x 256.96pt>
 File: ../presentation/filters.png Graphic file (type png)
 <use ../presentation/filters.png>
-Package pdftex.def Info: ../presentation/filters.png  used on input line 396.
+Package pdftex.def Info: ../presentation/filters.png  used on input line 397.
 (pdftex.def)             Requested size: 430.00462pt x 246.27493pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../presentation/training_cost.png, id=115, 462.528pt x 346.896pt>
+<../presentation/training_cost.png, id=116, 462.528pt x 346.896pt>
 File: ../presentation/training_cost.png Graphic file (type png)
 <use ../presentation/training_cost.png>
 Package pdftex.def Info: ../presentation/training_cost.png  used on input line 
-408.
+409.
 (pdftex.def)             Requested size: 430.00462pt x 322.51994pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../presentation/validation_error.png, id=116, 462.528pt x 346.896pt>
+<../presentation/validation_error.png, id=117, 462.528pt x 346.896pt>
 File: ../presentation/validation_error.png Graphic file (type png)
 <use ../presentation/validation_error.png>
 Package pdftex.def Info: ../presentation/validation_error.png  used on input li
-ne 419.
+ne 420.
 (pdftex.def)             Requested size: 430.00462pt x 322.51994pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../presentation/finaltest_error.png, id=117, 462.528pt x 346.896pt>
+<../presentation/finaltest_error.png, id=118, 462.528pt x 346.896pt>
 File: ../presentation/finaltest_error.png Graphic file (type png)
 <use ../presentation/finaltest_error.png>
 Package pdftex.def Info: ../presentation/finaltest_error.png  used on input lin
-e 432.
+e 433.
 (pdftex.def)             Requested size: 430.00462pt x 322.51994pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [5.5] [6.6 <../presentation/filters.png>]
-Overfull \hbox (5.91664pt too wide) in paragraph at lines 464--465
+Overfull \hbox (5.91664pt too wide) in paragraph at lines 465--466
 \T1/aer/m/n/9 (-20) tional Net-works (DenseNets). GitHub. Re-trieved April 21, 
 2023, from https://github.com/andreasveit/densenet-
  []
@@ -1079,11 +1081,11 @@ Class acmart Warning: CCS concepts are mandatory for papers over two pages.
 
 [8.8 <../presentation/validation_error.png>] [9.9 <../presentation/finaltest_er
 ror.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 542.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 542.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 543.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 543.
  (./586_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 542.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 542.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 543.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 543.
 Package rerunfilecheck Info: File `586_report.out' has not changed.
 (rerunfilecheck)             Checksum: BB7D3B9099ED4988AE3E26CAE3524382;1396.
 
@@ -1096,11 +1098,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 20990 strings out of 481239
- 322790 string characters out of 5920377
+ 20996 strings out of 481239
+ 322874 string characters out of 5920377
  628755 words of memory out of 5000000
- 35242 multiletter control sequences out of 15000+600000
- 635503 words of font info for 439 fonts, out of 8000000 for 9000
+ 35245 multiletter control sequences out of 15000+600000
+ 637156 words of font info for 441 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
  63i,16n,100p,1366b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
@@ -1116,10 +1118,10 @@ cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx1
 are/texmf/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texmf/fonts/type
 1/public/cm-super/sfrm0700.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
 rm0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on 586_report.pdf (9 pages, 2813083 bytes).
+Output written on 586_report.pdf (9 pages, 2813106 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 61583 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 225 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 38 named destinations out of 1000 (max. 500000)
+ 62095 words of extra memory for PDF output out of 74296 (max. 10000000)
 
