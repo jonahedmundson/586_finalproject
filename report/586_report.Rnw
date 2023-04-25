@@ -176,6 +176,7 @@ Assumptions of the following analysis due to the method of dataset construction 
 
 \begin{abstract}
 \section*{Abstract}
+\par
 Images of current and former U.S. Congress Members were gathered for the dataset to represent members of the Republican and Democrat parties. This report aims to answer the question - can a neural network model predict the political affiliation of an individual given simply their image? This leads to several other potential questions, as to whether political affiliation can be determined based on simply physical features, regardless of if a human can detect it or not. Michal Kosinski's \href{https://www.nature.com/articles/s41598-020-79310-1}{2021 paper} inspired this research, as he conducted a large study and found that political orientation was classified in 72\% of images. In this study, three different architectures were trained and tested for classifying images. This includes LeNet-5, DenseNet, and a custom architecture modified from LeNet. The LeNet-5 model outperformed the other two significantly, with test classification rates of 60.21\%, 51.76\%, and 51.41\%, respectively. All models performed better than chance, 50\%, but the models failed to perform as well as Kosinski's, likely due to dataset limitations and computational power. Future work includes sourcing larger, more representative datasets to obtain a better classification accuracy.
 
 \end{abstract}
@@ -241,7 +242,7 @@ Images of current and former U.S. Congress Members were gathered for the dataset
 \maketitle
 
 \section{Introduction}
-
+\par
 Machine learning has been used for image classification in many revolutionizing ways, including classifying different species. There has also been moral controversy regarding big tech firms and their biased human image classification modelling. Google made headlines in 2015 for their perceived racist image labeling (Kayser-Bril). Image classification is difficult, especially when the task is to classify something that the naked human eye cannot predict accurately. Over the years, political affiliation has become a growing source of division and controversy. The two main political groups are liberals and conservatives, also known as members of the left and right wing, or in the United States, they are referred to as Democrats and Republicans. These two groups have very distinguishing behavioural features, but can there be distinguishing physical features as well?
 \par
 In this report, the goal is to minimize all bias as absolutely necessary, to avoid the same pitfalls that Google experienced, while testing the possibility of artificial intelligence being able to predict underlying human behaviours and preferences from a simple image. Inspiration for this project came from \href{ttps://www.nature.com/articles/s41598-020-79310-1 }{this link}. This would be a feat more capable than humans themselves. If successful, this model could open up a number of possibilities. Advertising companies could better target ads based on traditional behaviours of people based on their political affiliation. Voting modelling could better predict the outcome of elections by simply using images of citizens. There are numerous possibilities that would generate significant revenue and innovation for societies around the world.
@@ -249,7 +250,7 @@ In this report, the goal is to minimize all bias as absolutely necessary, to avo
 \section{Background}
 
 \subsection{Dataset}
-
+\par
 The dataset for this project was obtained from the \href{https://www.congress.gov/members}{US Congress Members} archive. This includes images of 2,515 current and former members of the U.S. Congress spanning from 1973 to 2024, which includes the 93rd to 118th Congress. Representation from all US States were present. Photos of each member as well as their party affiliation (republican or democrat) were recorded. Members with an affiliation of ``independent'' were removed. After data collection, the rows were shuffled, and the dataset was split into training (80\%), validation (5\%) and testing (15\%). The dataset contained a total of 1,889 rows. Further pre-processing was done and images were resized to 120 by 100 pixels (height by width) and converted to grayscale. Before CNN training, images were sequentially augmented thrice using the IMAGENET AutoAugment policy. 
 
 \begin{figure}[h]
@@ -275,7 +276,7 @@ These assumptions allowed us to collect the dataset mentioned above. It also all
 \section{Methods}
 
 \subsection{Architecture}
-
+\par
 Three different architectures were trained and tested for classifying the images. These were LeNet-5, DenseNet, and a custom architecture (created from a modified LeNet). The specific architectures, including features and classifiers, of these NNs can be seen below in \cref{tab:lenet5,tab:densenet,tab:custom}. The DenseNet architecture can be further investigated by visiting \href{https://github.com/andreasveit/densenet-pytorch}{this GitHub repo}. Specifics regarding performance comparison between the three main methods can be found in the results section.
 
 \begin{table}[h!]
@@ -363,7 +364,7 @@ Three different architectures were trained and tested for classifying the images
 
 
 \subsection{Tuning}
-
+\par
 Many attempts were made to tune the each of the models in order to raise the classification accuracy for the test data set. Learning rate, batch size, number of epochs, dropout rate, number of features, weight decay, and depth (found only in DenseNet) were systematically altered individually. Many iterations of each of the three models were run with these various hyperparameter values. The best values for each hyperparameter were discovered for each of the models, and can be seen in \cref{tab:params}. These final values each improved the model accuracy for all three approaches.
 
 \begin{table}[h!]
@@ -385,8 +386,8 @@ Many attempts were made to tune the each of the models in order to raise the cla
 \end{table}
 
 \section{Results}
-
-The LeNet-5 model outperformed DenseNet and the custom LeNet by a significant margin, even after extensive tuning. See the comparison in test error between the three models in this plot (\cref{fig:test}). LeNet-5 obtained a test classification rate of 60.21\%. DenseNet and custom LeNet achieved classification rates of 51.76\% and 51.41\%, respectively. This shows that LeNet-5 was significantly better than both of the two remaining models by approximately 9\%. It is interesting to note that the DenseNet and custom LeNet performed very similarly with respect to their classification rate, despite being very different models. These last two models perform only slightly better than random chance, as random chance is given by a 50\% classification accuracy, while basic LeNet-5 performs decently well, but there is still questions regarding its reliability. The 60\% mark is better than random chance, and possibly better than the naked human eye, but it is not a strong enough result to create a reliable model. Our goal at the beginning was to be able to better predict political affiliation compared to humans, which you could assume is no better than chance, so it is still a possibility that this goal has been reached. The convolutional filters of both convolutional layers for LeNet-5 can be seen in \cref{fig:filters}.
+\par
+The LeNet-5 model outperformed DenseNet and the custom LeNet by a significant margin, even after extensive tuning. See the comparison in test error between the three models in this plot (\cref{fig:test}). LeNet-5 obtained a test classification rate of 60.21\%. DenseNet and custom LeNet achieved classification rates of 51.76\% and 51.41\%, respectively. This shows that LeNet-5 was significantly better than both of the two remaining models by approximately 9\%. Several other metrics such as the precision, recall and F1 were also considered and gave similar results. It is interesting to note that the DenseNet and custom LeNet performed very similarly with respect to their classification rate, despite being very different models. These last two models perform only slightly better than random chance, as random chance is given by a 50\% classification accuracy, while basic LeNet-5 performs decently well, but there is still questions regarding its reliability. The 60\% mark is better than random chance, and possibly better than the naked human eye, but it is not a strong enough result to create a reliable model. Our goal at the beginning was to be able to better predict political affiliation compared to humans, which you could assume is no better than chance, so it is still a possibility that this goal has been reached. The convolutional filters of both convolutional layers for LeNet-5 can be seen in \cref{fig:filters}.
 \par
 Interestingly, \cref{fig:train,fig:valid} show that while all the models were able to converge to a solution on the training data, this convergence did not lead to better classification for the validation set. For the training data, all three models were able to converge to the minimum cost in only two epochs. In contrast, for the validation data, the models just seem to jump around without improving for all 15 epochs. 
 
@@ -438,7 +439,7 @@ Interestingly, \cref{fig:train,fig:valid} show that while all the models were ab
 
 
 \section{Discussion}
-
+\par
 Upon reflection of the performance of the various models tested, it is worth noting that the test classification rate was higher than the train classification rate. Although not impossible, we were quite perplexed as to why this was the case. After careful consideration, it was speculated that this is occurring because the training data is augmented whereas the testing data is not, so the model is able to more easily classify the test set images because of this, which resulted in the higher rate for the test set rather than the train set.
 \par
 Although the model performed better than chance, and potentially better than an impartial human being could guess, the performance was not at the level that we would have liked. The poor classification rate of the NN may have occurred because of these potential reasons listed below:
@@ -455,18 +456,18 @@ Out of all of these potential reasons, we believe that the fifth option is a mor
 
 
 \section{Limitations \& Future Work}
-
+\par
 In order to rectify the low classification rate of the NN, as well as to iron out the assumptions listed earlier in this report, a new dataset should be collected. Ideally, the dataset would be collected from public social media profiles such as Facebook or dating websites, as per our original intentions. This new dataset should also be much larger, ideally by several orders of magnitude. Once this dataset is collected, more complex NN architectures could be attempted. If this were to be done, we speculate that the classification rate would increase, as was seen in the Kosinski (2021) paper.
 
 
 \section{References}
-
+\par
 Andreasveit. (n.d.). Andreasveit/densenet-pytorch: A pytorch implementation for densely connected Convolutional Networks (DenseNets). GitHub. Retrieved April 21, 2023, from https://github.com/andreasveit/densenet-pytorch 
-
+\par
 Congress.Gov. (n.d.). Members of the U.S. congress | Congress.gov | Library of Congress. Members of the U.S. Congress. Retrieved April 21, 2023, from https://www.congress.gov/members 
-
+\par
 Kayser-Bril, N. (n.d.). Image classification algorithms at Apple, Google still push racist tropes. AlgorithmWatch. Retrieved April 20, 2023, from https://algorithmwatch.org/en/apple-google-computer-vision-racist/ 
-
+\par
 Kosinski, M. (2021, January 11). Facial recognition technology can expose political orientation from naturalistic facial images. Nature News. Retrieved April 21, 2023, from https://www.nature.com/articles/s41598-020-79310-1 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
