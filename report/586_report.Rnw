@@ -391,53 +391,6 @@ The LeNet-5 model outperformed DenseNet and the custom LeNet by a significant ma
 \par
 Interestingly, \cref{fig:train,fig:valid} show that while all the models were able to converge to a solution on the training data, this convergence did not lead to better classification for the validation set. For the training data, all three models were able to converge to the minimum cost in only two epochs. In contrast, for the validation data, the models just seem to jump around without improving for all 15 epochs. 
 
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\linewidth]{../presentation/filters.png}
-  \caption{The convolutional filters of the first and second convolutional layers.}
-  \label{fig:filters}
-  \Description{text}
-\end{figure}
-
-
-
-
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\linewidth]{../presentation/training_cost.png}
-  \caption{The training cost over 15 epochs for the 3 architectures considered.}
-  \label{fig:train}
-  \Description{text}
-\end{figure}
-
-
-
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\linewidth]{../presentation/validation_error.png}
-  \caption{The validation error over 15 epochs for the 3 architectures considered.}
-  \label{fig:valid}
-  \Description{text}
-\end{figure}
-
-
-
-
-
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=\linewidth]{../presentation/finaltest_error.png}
-  \caption{The final testing error for the 3 architectures considered.}
-  \label{fig:test}
-  \Description{text}
-\end{figure}
-
-
-
 \section{Discussion}
 \par
 Upon reflection of the performance of the various models tested, it is worth noting that the test classification rate was higher than the train classification rate. Although not impossible, we were quite perplexed as to why this was the case. After careful consideration, it was speculated that this is occurring because the training data is augmented whereas the testing data is not, so the model is able to more easily classify the test set images because of this, which resulted in the higher rate for the test set rather than the train set.
@@ -469,6 +422,44 @@ Congress.Gov. (n.d.). Members of the U.S. congress | Congress.gov | Library of C
 Kayser-Bril, N. (n.d.). Image classification algorithms at Apple, Google still push racist tropes. AlgorithmWatch. Retrieved April 20, 2023, from https://algorithmwatch.org/en/apple-google-computer-vision-racist/ 
 \par
 Kosinski, M. (2021, January 11). Facial recognition technology can expose political orientation from naturalistic facial images. Nature News. Retrieved April 21, 2023, from https://www.nature.com/articles/s41598-020-79310-1 
+
+
+\section{Appendix}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{../presentation/filters.png}
+  \caption{The convolutional filters of the first and second convolutional layers.}
+  \label{fig:filters}
+  \Description{text}
+\end{figure}
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{../presentation/training_cost.png}
+  \caption{The training cost over 15 epochs for the 3 architectures considered.}
+  \label{fig:train}
+  \Description{text}
+\end{figure}
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{../presentation/validation_error.png}
+  \caption{The validation error over 15 epochs for the 3 architectures considered.}
+  \label{fig:valid}
+  \Description{text}
+\end{figure}
+
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=\linewidth]{../presentation/finaltest_error.png}
+  \caption{The final testing error for the 3 architectures considered.}
+  \label{fig:test}
+  \Description{text}
+\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \commentt{ %begin long comment out 
